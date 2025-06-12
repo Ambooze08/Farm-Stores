@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fitness HuB - Join</title>   
-    <link rel="stylesheet" href="sign.css">
-    <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2936/2936886.png" alt="icon">
+    <title>farm_stores</title>
+    <link rel="stylesheet" href="/css/sign.css">
+    <!-- <link rel="icon" href="https://cdn-icons-png.flaticon.com/128/2936/2936886.png" alt="icon"> -->
 </head>
+
 <body>
     <!-- <nav class="navigation">
         <ul>
@@ -15,41 +17,41 @@
           <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav> -->
-      <nav class="nav">
+    <nav class="nav">
         <div class="cont">
-          <div class="form sign-in">
-              <h2>Log In to your account</h2>
-              
-              <form action="sign.php" method="post">
-              <label>
-                  <b>Email</b>
-                  <input type="email" name="email" placeholder="Enter your Email-ID" />
-              </label>
-              <label>
-                  <b>Password</b>
-                  <input type="password" name="password" placeholder="Enter your PASSWORD"/>
-              </label>
-              <button class="forgot-pass" type="link"></button>
-              <a href="forgotpass.html">Forgot Password?</a>
-              <button type="button" class="submit" value="submit">Sign In</button>
-             
-          </div>
-          <div class="sub-cont">
-              <div class="img">
-                  <div class="img__text m--up">
-                   
-                      <h3>Don't have an account? Please Sign up!<h3>
-                  </div>
-                  <div class="img__text m--in">
-                  
-                      <h3>If you already have an account, just sign in.<h3>
-                  </div>
-                  <div class="img__btn">
-                      <span class="m--up">Sign Up</span>
-                      <span class="m--in">Sign In</span>
-                  </div>
-              </div>
-              <div class="form sign-up">
+            <div class="form sign-in">
+                <h2>Log In to your account</h2>
+
+                <form action="sign.php" method="post">
+                    <label>
+                        <b>Email</b>
+                        <input type="email" name="email" placeholder="Enter your Email-ID" />
+                    </label>
+                    <label>
+                        <b>Password</b>
+                        <input type="password" name="password" placeholder="Enter your PASSWORD" />
+                    </label>
+                    <button class="forgot-pass" type="link"></button>
+                    <a href="forgotpass.html">Forgot Password?</a>
+                    <button type="button" class="submit" value="submit">Sign In</button>
+
+            </div>
+            <div class="sub-cont">
+                <div class="img">
+                    <div class="img__text m--up">
+
+                        <h3>Don't have an account? Please Sign up!<h3>
+                    </div>
+                    <div class="img__text m--in">
+
+                        <h3>If you already have an account, just sign in.<h3>
+                    </div>
+                    <div class="img__btn">
+                        <span class="m--up">Sign Up</span>
+                        <span class="m--in">Sign In</span>
+                    </div>
+                </div>
+                <div class="form sign-up">
                     <h2>Create your Account</h2>
                     <label>
                         <p>Full Name</p>
@@ -75,21 +77,22 @@
                         <p>Password</p>
                         <input type="password" />
                     </label>
-                    <a href="index.html">
+                    <a href="/index.html">
                         <button type="button" class="submit">Sign Up</button>
                     </a>
-              </div>
-          </div>
-      </div>
-      </nav>
-      </form>
-      
-  
-      <script>
-          document.querySelector('.img__btn').addEventListener('click', function() {
-              document.querySelector('.cont').classList.toggle('s--signup');
-          });
-      </script>   
+                </div>
+            </div>
+        </div>
+    </nav>
+    </form>
+
+
+    <script>
+        document.querySelector('.img__btn').addEventListener('click', function () {
+            document.querySelector('.cont').classList.toggle('s--signup');
+        });
+    </script>
     <!-- INSERT INTO `signup` (`email`, `password`) VALUES ('nitishtriguncm5@gmail.com', 'zxc@123');  -->
 </body>
+
 </html>
